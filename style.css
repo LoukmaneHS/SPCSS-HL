@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #444;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.server-info {
+    margin-top: 20px;
+}
+
+.server-info p {
+    font-size: 16px;
+}
+
+.value {
+    color: green;
+}
